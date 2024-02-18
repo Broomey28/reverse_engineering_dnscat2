@@ -1,4 +1,4 @@
-## Reverse engineering dnscat unencrypted comms between in a packet capture
+## Reverse engineering dnscat unencrypted comms in a packet capture
 
 ### Ascertain how DNSCat is sending data back in wireshark:
 1. Find the big talkers via stats:
