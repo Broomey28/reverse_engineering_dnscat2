@@ -9,7 +9,7 @@
    ```ip.addr==<ip>  && <ip> && dns ```
    
       ![image](https://github.com/Broomey28/reverse_engineering_dnscat2/assets/56151530/f93dcbe3-0e97-4656-9adb-fa56b24b1d4a)
-3. It should be pretty obvious what the root domain is from here:
+3. It should be pretty obvious what the [root domain](https://en.wikipedia.org/wiki/Root_name_server#:~:text=The%20root%20domain%20does%20not,.example.com.%22 "What is a root domain") is from here:
 
    ![image](https://github.com/Broomey28/reverse_engineering_dnscat2/assets/56151530/c49965f6-5d21-4bb2-9005-d9f7a1785752)
 5. Figure out how many bytes of nonsense data is before/after each DNS Query (we'll need this to remove it in our script).
