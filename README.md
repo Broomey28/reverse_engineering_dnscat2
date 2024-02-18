@@ -17,6 +17,7 @@
    - Notice how the first 18 bits of the hex have a similar pattern for each and every query, it seems to be a boundary separating the actual data:
    ![image](https://github.com/Broomey28/reverse_engineering_dnscat2/assets/56151530/5ccc1e4c-394e-431c-95a9-a87a8ca57043)
    - We can see this further if we look at the converted output in CyberChef (this is a single QName Sample):
+   - Notice the non-ascii characters at the beginning!
 ```
 =¾Í¡¼w«",fhill,Stephen Cline,M,"3988 Weber Dale Suite 754 New Anthonyhaven, UT 92327",ebarnett@hotmail
 ```
